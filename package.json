@@ -4,7 +4,7 @@
   "description": "WASM binding for minijinja",
   "scripts": {
     "build": "wasm-pack build --target web --scope openrouter",
-    "publish": "wasm-pack publish"
+    "publish": "wasm-pack publish --access public"
   },
   "author": "OpenRouter",
   "contributors": [
