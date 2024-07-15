@@ -1,8 +1,14 @@
 [package]
-name = "minijinja-playground"
+name = "minijinja"
 version = "0.1.0"
-authors = ["Armin Ronacher <armin.ronacher@active-4.com>"]
+authors = [
+  "OpenRouter <support@openrouter.ai>",  
+  "Armin Ronacher <armin.ronacher@active-4.com>"
+]
 edition = "2021"
+license = "MIT"
+description = "A wasm wrapper for minijinja"
+repository = "https://github.com/OpenRouterTeam/minijinja"
 
 [lib]
 crate-type = ["cdylib", "rlib"]

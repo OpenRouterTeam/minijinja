@@ -6,3 +6,4 @@ pkg/
 wasm-pack.log
 gh-pages
 .idea
+node_modules
