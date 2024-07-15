@@ -1,6 +1,6 @@
 [package]
 name = "minijinja"
-version = "0.1.0"
+version = "0.1.1"
 authors = [
   "OpenRouter <support@openrouter.ai>",  
   "Armin Ronacher <armin.ronacher@active-4.com>"
@@ -14,11 +14,11 @@ repository = "https://github.com/OpenRouterTeam/minijinja"
 crate-type = ["cdylib", "rlib"]
 
 [features]
-default = ["console_error_panic_hook"]
+default = []
 
 [dependencies]
-wasm-bindgen = "0.2.62"
-minijinja = { version = "2.0.0", features = ["loader", "json", "urlencode", "preserve_order", "unstable_machinery_serde"] }
+wasm-bindgen = "0.2.92"
+minijinja = { version = "2.0.3", features = ["loader", "json", "urlencode", "preserve_order", "unstable_machinery_serde"] }
 
 # The `console_error_panic_hook` crate provides better debugging of panics by
 # logging them with `console.error`. This is great for development, but requires
