@@ -1,0 +1,23 @@
+{
+  "name": "@openrouter/minijinja",
+  "version": "0.0.1",
+  "description": "WASM binding for minijinja",
+  "scripts": {
+    "build": "wasm-pack build --target web --scope openrouter",
+    "publish": "wasm-pack publish"
+  },
+  "author": "OpenRouter",
+  "contributors": [
+    "@openrouter/hackers"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OpenRouterTeam/minijinja.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "wasm-pack": "0.13.0",
+    "typescript": "5.4.5",
+    "prettier": "3.3.2"
+  }
+}
